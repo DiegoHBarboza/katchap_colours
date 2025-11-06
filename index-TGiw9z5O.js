@@ -13804,13 +13804,11 @@ const LQ = () => {
         children: [m.jsxs("div", {
             className: "w-full md:w-1/2 bg-[#03396c] text-white flex flex-col relative min-h-[40vh] sm:min-h-[50vh] md:min-h-0",
             children: [m.jsx("img", {
-                src: "/bricks.png",
-                alt: "Bricks",
-                className: "w-full h-6 xs:h-8 sm:h-12 md:h-20 lg:h-20 xl:h-20 2xl:h-28 object-cover absolute top-0 left-0 "
+                className: "w-20 xs:w-24 sm:w-16 md:w-24 lg:w-60 xl:w-72 2xl:w-72 3xl:w-72 object-contain mb-1 sm:mb-2"
             }), m.jsxs("div", {
                 className: "flex flex-col items-center justify-center flex-grow relative z-10 text-center px-2 sm:px-4 md:px-8 py-6 sm:py-8 md:py-0 sm:mt-10 ms:mb-10",
                 children: [m.jsx("img", {
-                    src: "./hat2.png",
+                    src: "./assets/logo.png",
                     alt: "Demo Logo",
                     className: "w-20 xs:w-24 sm:w-16 md:w-24 lg:w-60 xl:w-72 2xl:w-72 3xl:w-72 object-contain mb-1 sm:mb-2"
                 }), m.jsx("p", {
@@ -13826,10 +13824,6 @@ const LQ = () => {
                     },
                     children: ["Floor Spaces", m.jsx("br", {}), "Project Management"]
                 })]
-            }), m.jsx("img", {
-                src: "/bricksbelow.png",
-                alt: "Bottom Bricks",
-                className: "absolute bottom-0 left-0  sm:w-[35%] md:w-[50%] lg:w-4/5 xl:w-[70%] 2xl:w-[80%]  h-10 xs:h-12 sm:h-16 md:h-24 lg:h-32 xl:h-30 2xl:h-52 object-cover "
             })]
         }), m.jsx("div", {
             className: "flex flex-col justify-center items-center w-full md:w-1/2 px-3 sm:px-8 md:px-16 py-8 sm:py-10 bg-white min-h-[55vh] sm:min-h-[50vh] md:min-h-0",
@@ -38594,7 +38588,7 @@ const zF = () => {
                     }), m.jsx("input", {
                         type: "text",
                         placeholder: "Search",
-                        className: "w-full pl-9 pr-2 py-1 border rounded-simple text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
+                        className: "w-full pl-9 pr-2 py-1 border rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
                     })]
                 })
             }), m.jsxs("div", {
@@ -39661,7 +39655,7 @@ const zF = () => {
                     }), m.jsx("input", {
                         type: "text",
                         placeholder: "Search",
-                        className: "w-full pl-9 pr-2 py-1 border rounded-simple text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
+                        className: "w-full pl-9 pr-2 py-1 border rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
                     })]
                 })
             }), m.jsxs("div", {
@@ -40038,7 +40032,7 @@ const zF = () => {
                     }), m.jsx("input", {
                         type: "text",
                         placeholder: "Search",
-                        className: "w-full pl-9 pr-2 py-1 border rounded-simple text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
+                        className: "w-full pl-9 pr-2 py-1 border rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
                     })]
                 })
             }), m.jsxs("div", {
@@ -40266,7 +40260,7 @@ const zF = () => {
                     }), m.jsx("input", {
                         type: "text",
                         placeholder: "Search",
-                        className: "w-full pl-9 pr-2 py-1 border rounded-simple text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
+                        className: "w-full pl-9 pr-2 py-1 border rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
                     })]
                 })
             }), m.jsxs("div", {
@@ -62933,12 +62927,12 @@ const C8 = ({setTool: n, setZoom: e, toggleFullscreen: t, isFullscreen: r, setSh
     , [a]),
     m.jsx("div", {
         ref: d,
-        className: "flex flex-col gap-2 p-2 bg-white shadow-md rounded-xl w-16",
+        className: "flex flex-col gap-2 p-2 bg-light-gray shadow-md rounded-xl w-16",
         children: p.map( (b, x) => m.jsxs("div", {
             className: "relative",
             children: [m.jsx("button", {
                 onClick: () => v(b),
-                className: "flex items-center justify-center w-12 h-12 rounded-lg text-gray-700 bg-gray-100 hover:bg-[#03396c] hover:text-white transition ",
+                className: "flex items-center justify-center w-12 h-12 rounded-lg text-gray-700 bg-white hover:bg-[#03396c] hover:text-white transition ",
                 children: b.icon
             }), !b.submenu && m.jsx("div", {
                 className: `absolute left-14 top-1/2 -translate-y-1/2 
@@ -64156,7 +64150,7 @@ const C8 = ({setTool: n, setZoom: e, toggleFullscreen: t, isFullscreen: r, setSh
                 children: [m.jsxs("div", {
                     className: "flex items-center gap-1 text-gray-700",
                     children: [m.jsx("div", {
-                        className: "w-4 h-4 flex items-center justify-center rounded-full text-white text-[9px]",
+                        className: "w-4 h-4 flex items-center justify-center rounded-simple text-white text-[9px]",
                         style: {
                             backgroundColor: B.color
                         },
@@ -64248,7 +64242,7 @@ const C8 = ({setTool: n, setZoom: e, toggleFullscreen: t, isFullscreen: r, setSh
                 children: [m.jsxs("div", {
                     className: "flex items-center gap-1 text-gray-700",
                     children: [m.jsx("div", {
-                        className: "w-4 h-4 flex items-center justify-center rounded-full text-white text-[9px]",
+                        className: "w-4 h-4 flex items-center justify-center rounded-simple text-white text-[9px]",
                         style: {
                             backgroundColor: B.color
                         },
@@ -64306,7 +64300,7 @@ const C8 = ({setTool: n, setZoom: e, toggleFullscreen: t, isFullscreen: r, setSh
                     className: "flex items-center gap-1 3xl:gap-2 text-gray-700",
                     children: [m.jsx("div", {
                         className: `
-        w-4 h-4 flex items-center justify-center rounded-full text-white text-[6px]
+        w-4 h-4 flex items-center justify-center rounded-simple text-white text-[6px]
         3xl:w-6 3xl:h-6 3xl:text-[7px]
       `,
                         style: {
@@ -70434,7 +70428,7 @@ const Hq = ({text: n, children: e}) => {
         icon: m.jsx(Dee, {
             size: 14
         }),
-        color: "text-yellow-700"
+        color: "text-yellow-700",
     }, {
         name: "Tile",
         icon: m.jsx(AJ, {
@@ -70453,13 +70447,7 @@ const Hq = ({text: n, children: e}) => {
             size: 14
         }),
         color: "text-teal-700"
-    }, {
-        name: "Connect",
-        icon: m.jsx(DJ, {
-            size: 14
-        }),
-        color: "text-blue-600"
-    }, {
+    },  {
         name: "Electrical",
         icon: m.jsx(tR, {
             size: 14
@@ -70484,6 +70472,13 @@ const Hq = ({text: n, children: e}) => {
         }),
         color: "text-purple-700"
     }, {
+        name: "Connect",
+        icon: m.jsx(DJ, {
+            size: 14
+        }),
+        color: "text-blue-600"
+    },
+       {
         name: "More",
         icon: m.jsx(yJ, {
             size: 14
@@ -70511,14 +70506,7 @@ const Hq = ({text: n, children: e}) => {
         }),
         value: "Mark Nonnon",
         color: "#f59e0b"
-    }, {
-        name: "Connect",
-        icon: m.jsx(pee, {
-            size: 14
-        }),
-        value: "Select Item on Plan",
-        color: "#14b8a6"
-    }, {
+    },  {
         name: "Progress",
         icon: m.jsx(_ee, {
             size: 14
@@ -70547,12 +70535,19 @@ const Hq = ({text: n, children: e}) => {
         value: "2 Observations",
         color: "#06b6d4"
     }, {
-        name: "Programme",
+        name: "Program",
         icon: m.jsx(LO, {
-            size: 18
+            size: 14
         }),
         value: "10/5/2025 - 10/5/2026",
         color: "#8b5cf6"
+    },  {
+        name: "Connect",
+        icon: m.jsx(pee, {
+            size: 14
+        }),
+        value: "Select Item on Plan",
+        color: "#14b8a6"
     }]
       , [_t,ZA] = R.useState(null)
       , [Zm,Ud] = R.useState({
@@ -71143,7 +71138,7 @@ const Hq = ({text: n, children: e}) => {
         children: [m.jsxs("div", {
             className: `
     fixed top-15 left-0 w-full bg-white z-10 flex items-center justify-between 
-    px-4 py-3 border-b shadow-sm 
+     py-3 border-b shadow-sm 
     lg:relative lg:shadow-none lg:border-none lg:pt-0 lg:top-auto
   `,
             children: [m.jsxs("div", {
@@ -71166,12 +71161,12 @@ const Hq = ({text: n, children: e}) => {
     appearance-none  rounded
     px-3 pr-8 py-1.5 
     border border-gray-200 
-    text-sm font-medium text-gray-700 
-    bg-gray-200 
+    text-sm font-medium text-gray-700
+    bg-light-gray
     shadow-sm 
-    hover:bg-gray-300 
+    hover:bg-red-300
     focus:outline-none 
-    focus:ring-2 focus:ring-[#03396c]/40
+    focus:ring-2 focus:ring-red-300
     transition-all duration-150 ease-in-out
   `,
                         children: i.map(J => m.jsx("option", {
@@ -71179,7 +71174,7 @@ const Hq = ({text: n, children: e}) => {
                             children: J.title
                         }, J.id))
                     }), m.jsx("div", {
-                        className: "pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 group-hover:text-[#03396c] transition-colors duration-150",
+                        className: "pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-white bg-katchap rounded group-hover:text-white transition-colors duration-150",
                         children: m.jsx("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
                             className: "h-4 w-4",
@@ -71250,12 +71245,6 @@ const Hq = ({text: n, children: e}) => {
                     children: [m.jsx(Tw, {
                         size: 18
                     }), "Version Control"]
-                }), m.jsx("button", {
-                    onClick: () => v("hand"),
-                    className: ` p-2 rounded ${p === "hand" ? "bg-[#03396c] text-white" : "bg-gray-200 text-gray-700"}`,
-                    children: m.jsx(TJ, {
-                        size: 18
-                    })
                 }), m.jsx("button", {
                     onClick: () => {
                         Eu(1),
@@ -71463,8 +71452,8 @@ const Hq = ({text: n, children: e}) => {
                                             }
                                             ,
                                             style: {
-                                                width: `2vw`,
-                                                height: `2vh`,
+                                                width: `30px`,
+                                                height: `30px`,
                                                 transition: "width 0.2s, height 0.2s, transform 0.2s",
                                             },
                                             className: `cursor-pointer flex items-center justify-center ${C === null || C === ce ? "scale-125 drop-shadow-[0_0_10px_rgba(0,150,255,0.7)]" : "opacity-70 hover:scale-110 hover:drop-shadow-[0_0_6px_rgba(0,0,0,0.3)]"}`,
@@ -72167,9 +72156,9 @@ const Hq = ({text: n, children: e}) => {
                         type: "text",
                         placeholder: "Search",
                         className: `
-          w-full pl-9 pr-2 py-1 border rounded-simple text-sm
+          w-full pl-9 pr-2 py-1 border rounded-lg text-sm
           focus:outline-none focus:ring-1 focus:ring-gray-300
-          bg-gray-200 border-gray-300 hover:bg-gray-200 transition
+          bg-white border-gray-300 hover:bg-gray-200 transition
         `
                     })]
                 }), m.jsxs("div", {
@@ -72205,9 +72194,9 @@ const Hq = ({text: n, children: e}) => {
                         type: "text",
                         placeholder: "Search",
                         className: `
-          w-full pl-9 pr-2 py-1 border rounded-simple text-sm
+          w-full pl-9 pr-2 py-1 border rounded-lg text-sm
           focus:outline-none focus:ring-1 focus:ring-gray-300
-          bg-gray-200 border-gray-300 hover:bg-gray-200 transition
+          bg-white border-gray-300 hover:bg-gray-200 transition
         `
                     })]
                 })
@@ -72757,7 +72746,7 @@ const Hq = ({text: n, children: e}) => {
                     }), m.jsx("input", {
                         type: "text",
                         placeholder: "Search",
-                        className: "w-full pl-9 pr-2 py-1 border rounded-simple text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
+                        className: "w-full pl-9 pr-2 py-1 border rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
                     })]
                 })
             }), m.jsxs("div", {
@@ -73116,7 +73105,7 @@ const Hq = ({text: n, children: e}) => {
                     }), m.jsx("input", {
                         type: "text",
                         placeholder: "Search",
-                        className: "w-full pl-9 pr-2 py-1 border rounded-simple text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
+                        className: "w-full pl-9 pr-2 py-1 border rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
                     })]
                 })
             }), m.jsxs("div", {
@@ -73978,7 +73967,7 @@ const Hq = ({text: n, children: e}) => {
                     }), m.jsx("input", {
                         type: "text",
                         placeholder: "Search",
-                        className: "w-full pl-9 pr-2 py-1 border rounded-simple text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
+                        className: "w-full pl-9 pr-2 py-1 border rounded-lg text-sm focus:outline-none focus:ring-1 focus:ring-gray-300 bg-white border-gray-300 hover:bg-gray-200 transition"
                     })]
                 })
             }), m.jsxs("div", {
@@ -74091,7 +74080,7 @@ const Hq = ({text: n, children: e}) => {
         children: [m.jsxs("div", {
             className: "md:hidden fixed top-0 left-0 z-30 w-full bg-[#03396c] p-0 flex items-center justify-between shadow-sm",
             children: [m.jsx("img", {
-                src: "./Logokatchap.png",
+                src: "./assets/Logokatchap.png",
                 alt: "Katchap Logo",
                 className: "w-64 h-15"
             }), m.jsx("button", {
@@ -74111,7 +74100,7 @@ const Hq = ({text: n, children: e}) => {
             children: [m.jsx("div", {
                 className: "relative flex items-center  justify-center bg-[#03396c] ",
                 children: t && m.jsx("img", {
-                    src: "./Logokatchap.png",
+                    src: "/assets/Logokatchap.png",
                     alt: "Katchap Logo",
                     className: "w-full h-15"
                 })
